@@ -30,3 +30,4 @@ jobs:
         cd bili-tool/linux-x64
         chmod +x Ray.BiliBiliTool.Console
         ./Ray.BiliBiliTool.Console --runTasks=Login
+        ./Ray.BiliBiliTool.Console
