@@ -27,4 +27,4 @@ jobs:
     - name: install
       run: bash <(curl -sSL https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/docker/install.sh)
     - name: Test
-      run: Ray.BiliBiliTool.Console -cookieStr=abc -numberOfCoins=5
+      run: dotnet ./Ray.BiliBiliTool.Console.dll --runTasks=Login
